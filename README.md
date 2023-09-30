@@ -26,18 +26,11 @@ O projeto é organizado em quatro classes principais:
 
 - `AppJava`: É a classe principal que contém a lógica do programa. Ela inclui funções para cadastrar estudantes, cadastrar livros, realizar empréstimos, listar empréstimos e gerar relatórios.
 
-## Modo de Execução
+## Equipe
 
-Para executar o programa em sua máquina, siga estas etapas:
-
-1. Certifique-se de que você tenha o ambiente Java Development Kit (JDK) instalado em sua máquina.
-
-2. Baixe e extraia os arquivos do projeto em um diretório local.
-
-3. Abra um terminal ou prompt de comando e navegue até o diretório onde você extraiu os arquivos.
-
-4. Compile o programa executando o seguinte comando: javac AppJava.java
-   
-5. Execute o programa com o seguinte comando: java AppJava
-   
+|Equipe| Turma |
+|:-|:-:|
+|José Vinicius Cavalcante Soares | Turma B|
+|Eliedisson de Lima Silva | Turma A|
+|Aleksander Pires Calixto Negrão | Turma A|
 
