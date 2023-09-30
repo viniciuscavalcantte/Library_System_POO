@@ -56,16 +56,22 @@ public class AppJava {
                     }
                     break;
 
-                case 2:
+                    case 2:
                     // Listar Estudantes
                     System.out.println("\nLista de Estudantes:");
-                    for (Estudante estudante : estudantes) {
-                        System.out.println("ID: " + estudante.getId());
-                        System.out.println("Nome: " + estudante.getNome());
-                        System.out.println("CPF: " + estudante.getCpf());
-                        System.out.println();
+                    if (estudantes.isEmpty()) {
+                        System.out.println("Nenhum estudante cadastrado.");
+                    } else {
+                        for (Estudante estudante : estudantes) {
+                            System.out.println("ID: " + estudante.getId());
+                            System.out.println("Nome: " + estudante.getNome());
+                            System.out.println("CPF: " + estudante.getCpf());
+                            System.out.println("Senha: " + estudante.getSenha());
+                            System.out.println();
+                        }
                     }
                     break;
+                
 
                 case 3:
                     // Cadastro de Livro
